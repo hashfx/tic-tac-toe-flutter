@@ -1,10 +1,35 @@
-# tic_tac_toe
+# Tic-Tac-Toe in Flutter
 
-A new Flutter project.
+## Flutter: Let's Go 🏁
 
-## Getting Started
+### On Local Machine
 
-This project is a starting point for a Flutter application.
++ [Setup Flutter SDK](https://docs.flutter.dev/get-started/install)
++ [Setup Editor](https://docs.flutter.dev/development/tools)
++ [Create Project on Visual Studio Code](https://docs.flutter.dev/development/tools/vs-code#creating-a-new-project)
++ Upload Code from Local VS Code directory to GitHub
+
+### On GitHub Codespaces
+
++ Open repo on GitHub Codespaces
++ create a folder ```.devcontainer``` and a file ```devcontainer.json``` in it with following image code
+
+```powershell
+{
+    "image": "cirrusci/flutter:beta",
+    "forwardPorts": [
+        3000
+    ]
+}
+```
+
++ Rebuild container
++ Run ```Flutter Doctor```
++ Let's Code >> Flutter
+
+
+
+### Via Official Initial Flutter Build
 
 A few resources to get you started if this is your first Flutter project:
 
