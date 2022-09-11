@@ -57,7 +57,7 @@ class _GameScreenState extends State<GameScreen> {
           children: [
             // display text on screen
             Text(
-              "Player Turn: ${lastValue}".toUpperCase(),
+              "Play: ${lastValue}".toUpperCase(),
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 58,
