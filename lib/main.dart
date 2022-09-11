@@ -58,10 +58,10 @@ class _GameScreenState extends State<GameScreen> {
             // display text on screen
             Text(
               "Player Turn: ${lastValue}".toUpperCase(),
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 58,
-              ),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 58,
+                ),
             ),
             SizedBox(
               height: 20.0,
@@ -81,8 +81,8 @@ class _GameScreenState extends State<GameScreen> {
                     onTap: gameOver
                         ? null
                         : () {
-                          // click the button > add new value > refresh screen
-                          // toggle player > button clickable only if button is empty
+                            // click the button > add new value > refresh screen
+                            // toggle player > button clickable only if button is empty
                             if (game.board![index] == "") {
                               setState(() {
                                 game.board![index] = lastValue;
