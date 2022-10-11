@@ -26,6 +26,7 @@
 + Rebuild container
 + Run ```Flutter Doctor```
 + Let's Code >> Flutter
++ To serve app on web server ```flutter run --release -d web-server --web-hostname=0.0.0.0 --web-port=3000```
 
 
 
